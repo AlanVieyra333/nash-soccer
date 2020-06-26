@@ -26,58 +26,58 @@ movements = [
     { 'id': 'sdd', 'name': 'Recibe doble tarjeta amarilla', 'frecuency': 0.0, 'value': 0.6,
       'players': [0.01, 0.49, 0.3, 0.2]},
     { 'id': 'sf', 'name': 'Recibe tarjeta roja', 'frecuency': 0.0, 'value': 0.1,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.4, 0.2, 0.39]},
     { 'id': 'sa', 'name': 'Recibe tarjeta roja luego de 2 amonestaciones', 'frecuency': 0.0, 'value': 0.05,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.4, 0.2, 0.39]},
     { 'id': 'per', 'name': 'Pierde el balón con tarjeta amarilla', 'frecuency': 0.0, 'value': 1.0,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.4, 0.2, 0.39]}, #*
     { 'id': 'fuj', 'name': 'Comete fuera de lugar.', 'frecuency': 0.0, 'value': 2.3,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.3, 0.49]},
     { 'id': 'db', 'name': 'Despeja el balón', 'frecuency': 0.0, 'value': 18.2,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.4, 0.3, 0.2, 0.1]},
     { 'id': 'blce', 'name': 'Bloquea el balón con éxito', 'frecuency': 0.0, 'value': 11.7,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.4, 0.3, 0.2, 0.1]},
     { 'id': 'blse', 'name': 'Bloquea el balón sin éxito', 'frecuency': 0.0, 'value': 14.0,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.4, 0.4, 0.1, 0.1]}, #*
     { 'id': 'bl', 'name': 'Bloquea disparo', 'frecuency': 0.0, 'value': 5.8,
-      'players': [0.01, 0.49, 0.3, 0.2]},    # Jugador(3) y portero(2.8)
+      'players': [0.5, 0.38, 0.1, 0.02]},    # Jugador(3) y portero(2.8)
     # Ofensivo
     { 'id': 'gl', 'name': 'Anota gol', 'frecuency': 0.0, 'value': 1.4,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.3, 0.49]},
     { 'id': 'tr', 'name': 'Realiza tiro', 'frecuency': 0.0, 'value': 12.0,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.3, 0.49]},
     { 'id': 'rta', 'name': 'Acierta regate', 'frecuency': 0.0, 'value': 10.0,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.29, 0.5]},
     { 'id': 'rtf', 'name': 'Falla regate', 'frecuency': 0.0, 'value': 6.5,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.3, 0.49]},
     { 'id': 'perb', 'name': 'Pierde el balón', 'frecuency': 0.0, 'value': 23.8,
-      'players': [0.01, 0.49, 0.3, 0.2]}, # Toque no exitoso(14.8) y desposeido(9)
+      'players': [0.01, 0.2, 0.39, 0.4]}, # Toque no exitoso(14.8) y desposeido(9)
     { 'id': 'rb', 'name': 'Recupera el balón', 'frecuency': 0.0, 'value': 8.0,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.2, 0.3, 0.49]}, #*
     { 'id': 'pn', 'name': 'Comete penalti', 'frecuency': 0.0, 'value': 0.2,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.2, 0.3, 0.49]},
     { 'id': 'repnb', 'name': 'Recibe penalti con balón', 'frecuency': 0.0, 'value': 0.18,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.2, 0.3, 0.49]}, #*
     { 'id': 'repn', 'name': 'Recibe penalti sin balón', 'frecuency': 0.0, 'value': 0.02,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.3, 0.2, 0.49]}, #*
     # Distribucion
     { 'id': 'pl', 'name': 'Realiza pase largo', 'frecuency': 0.0, 'value': 30.0,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.3, 0.49, 0.2, 0.01]},
     { 'id': 'pc', 'name': 'Realiza pase corto', 'frecuency': 0.0, 'value': 350.0,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.3, 0.49, 0.2]},
     { 'id': 'as', 'name': 'Asiste a otro jugador', 'frecuency': 0.0, 'value': 0.9,
-      'players': [0.01, 0.49, 0.3, 0.2]},
+      'players': [0.01, 0.49, 0.4, 0.1]},
     { 'id': 'cn', 'name': 'Realiza centro', 'frecuency': 0.0, 'value': 4.3,
       'players': [0.01, 0.49, 0.3, 0.2]},
     # Otro
     { 'id': 'fubc', 'name': 'Saca el balón del campo de juego', 'frecuency': 0.0, 'value': 10.0,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.2, 0.3, 0.49]}, #*
     { 'id': 'mac', 'name': 'Comete mano', 'frecuency': 0.0, 'value': 0.7,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.1, 0.39, 0.5]}, #*
     { 'id': 'adv', 'name': 'Recibe advertencia', 'frecuency': 0.0, 'value': 1.0,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.42, 0.37, 0.2]}, #*
     { 'id': 'exp', 'name': 'Expulsión del juego', 'frecuency': 0.0, 'value': 0.12,
-      'players': [0.01, 0.49, 0.3, 0.2]}, #*
+      'players': [0.01, 0.45, 0.34, 0.2]}, #*
 ]
 
 movements = sorted(movements, key=lambda movement : movement['value'], reverse=True)
